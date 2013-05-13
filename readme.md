@@ -3,8 +3,8 @@ Integrating AdMob's Native Android SDK with your Android PhoneGap App
 
 Versions Used / Confirmed Working
 -
-- PhoneGap 2.0.0
-- AdMob Native Android SDK: 6.1.0
+- PhoneGap 2.0.0 - 2.7.0
+- AdMob Native Android SDK: 6.1.0 - 6.4.1
 
 Background
 -
@@ -18,6 +18,7 @@ Step 1) Install AdMob's Native Android SDK
 -
 - Download the <a href="https://developers.google.com/mobile-ads-sdk/download#downloadandroid">Android AdMob SDK</a>
 - Copy GoogleAdMobAdsSdk-\*.\*.\*.jar to your PhoneGap's libs directory.
+- Refresh your project dir in eclipse
 - In Eclipse, Right or secondary click on your project, choose 'Build Path' then the last menu item 'Configure Build Path'.
 - Select the 'Libraries' tab
 - Click 'Add Jars'
@@ -28,6 +29,7 @@ Step 2) Include Newly Installed Library
 - Open yourProject/src/com.\*.\*/MainActivity.java
 - Expand the collapsed inclusions (The + next to import android.os.Bundle; by default)
 - Add import com.google.ads.*;
+- Add import android.widget.LinearLayout;
 
 Step 3) Configure your AdMob ad unit ID
 -
