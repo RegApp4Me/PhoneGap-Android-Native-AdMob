@@ -3,14 +3,10 @@ Integrating AdMob's Native Android SDK with your Android PhoneGap App
 
 Versions Used / Confirmed Working
 -
-- PhoneGap 2.0.0 - 2.7.0
+- PhoneGap 2.0.0 - 3.4.0
 - AdMob Native Android SDK: 6.1.0 - 6.4.1
 
-Background
--
-Traditionally one of the most popular ways to monetize PhoneGap apps with ads has been to use AdMob's Smartphone Web Ads. These JavaScript powered ads fit in nicely with PhoneGap's build once, deploy everywhere paradigm. However <a href="http://support.google.com/admob/bin/answer.py?hl=en&answer=1678439">earlier this year Google disabled the Smartphone Web ad types in favor of AdSense</a>. The caveat with this being, in order to integrate AdSense and stay compliant with AdSense's terms and conditions, the ads must be embedded in a location that is freely accessible on the web to utilize AdSense's automatic contextualization, and that requires the location to be crawleable. Do not expect to be able to copy and paste in AdSense's ad code into your PhoneGap app, as you would do on a normal mobile site, your AdSense account will most likely be quickly closed for violating the terms and conditions.
-
-Solution
+Intro
 -
 It is easy to use <a href="https://developers.google.com/mobile-ads-sdk/download#downloadandroid">AdMob's Native Android SDK</a> to integrate ads into your PhoneGap app. This will display AdMob in addition to AdSense ads (in a Terms and Conditions compliant manor) to help monetize your PhoneGap app as efficiently as possible. If you are not an AdSense user, or wish to only include AdMob ads, you can opt to not enable AdSense under the AdMob control panel. 
 
